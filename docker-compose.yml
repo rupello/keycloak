@@ -33,3 +33,6 @@ services:
       build: .
       ports:
         - 5000:5000
+      volumes:
+        # we need to modify client_secrets to run inside docker
+        - ./keycloak/client_secrets.json:/app/client_secrets.json
