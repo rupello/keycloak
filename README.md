@@ -14,4 +14,15 @@ docker-compose up -d
 5. Login to demo at [http://localhost:5000](http://localhost:5000)
 
 
+#### Packet Capture
+
+Key:
+
+```bash
+192.168.128.1 : Browser(Host)
+192.168.128.2 : web
+192.168.128.4 : keycloak
+```
+
+![Wireshark HTTP](wireshark.png)
 
